@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css.css">
+    <script src="data.js"> </script>
+    <title>Project 2</title>
+</head>
+<body>
+<h1 class="text-center" style="font-weight: bold;"> Class Marksheet </h1><br>
+
+<form class="form-group text-center">
+    <div class="row input">
+            <div class="col-sm-12 col-md-6 ">
+            <label for="fname">Họ tên</label>
+            </div>
+            <div class="col-sm-12 col-md-6 ">
+            <input type="text" name="fname" id="fname" class="ui" required>
+            </div>
+        </div><br>
+        <div class="row input">
+            <div class="col-sm-12 col-md-6 ">
+            <label for="math">Điểm Toán</label>
+            </div>
+            <div class="col-sm-12 col-md-6 ">
+            <input type="text" name="math" id="math" class="ui" required>
+            </div>            
+        </div><br>
+        <div class="row input">
+            <div class="col-sm-12 col-md-6 ">
+            <label for="physical">Điểm Lý</label>
+            </div>
+            <div class="col-sm-12 col-md-6">
+            <input type="text" name="physical" id="physical" class="ui" required>
+            </div>
+        </div><br>
+        <div class="row input">
+            <div class="col-sm-12 col-md-6">
+            <label for="chemistry">Điểm Hóa</label>
+            </div>
+            <div class="col-sm-12 col-md-6">
+            <input type="text" name="chemistry" id="chemistry" class="ui" required>
+        </div><br><br>
+        <div class="tex-center">
+            <button id="nhap" type="button" onclick="UI()" class="btn btn-primary ">Nhập</button>
+        </div><br>
+    </form>
+<div class="container  text-center">
+    <table id="result" class="table table-bordered">
+      <thead>
+            <tr>
+                <td id="thead">STT </td>
+                <td id="thead">Họ và tên</td>
+                <td id="thead">Điểm Toán</td>
+                <td id="thead">Điểm Lý</td>
+                <td id="thead">Điểm hoá</td>
+                <td id="avg">Điểm Trung Bình</td>
+            </tr>
+        </thead>
+    </table>
+    <div class="row">
+        <div class="col-sm-4">
+        <button type="button" onclick="avgPoint()" class="btn btn-primary btn-bot">Tính điểm trung bình</button>
+        </div>
+        <div class="col-sm-4">
+        <button type="button" onclick="choose()" class="btn btn-primary btn-bot">Hiển thị học sinh giỏi</button>
+        </div>    
+        <div class="col-sm 4">
+            <button type="button" onclick="set()" class="btn btn-primary btn-bot">Xếp loại học sinh</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>

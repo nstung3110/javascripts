@@ -1,0 +1,29 @@
+@media screen and (min-width: 769px){
+    .ui{
+        margin-right: 75%;
+        max-width: 50%;
+    }
+    label{
+        margin-left: 80%;
+    }
+    #nhap{
+        margin-top: 2%;
+    }
+}
+@media screen and (max-width: 768px){
+    #nhap{
+        margin-top: 2%;
+    }
+}
+.ui{
+    max-width: 50%;
+}
+.loai_Gioi{
+    color: red;
+}
+.loai_Kha{
+    color: green;
+}
+.loai_TB{
+    color: blue;
+}

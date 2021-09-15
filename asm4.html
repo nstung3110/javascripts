@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+    <link rel="stylesheet" href="css2.css">
+    <script src="demo.js"> 
+    </script>
+    
+    <title>Project 4</title>
+</head>
+<body class="preloading">
+    <div class="loader">
+        <div class="inner one"></div>
+        <div class="inner two"></div>
+        <div class="inner three"></div>
+      </div>
+    
+    <div>
+        <header>
+            <div class="row header container-fluid">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                <h4 class="text-right"> News </h4>
+                </div>
+                
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                   <button type="icon" class="btnSearch" data-toggle="modal" data-target="#myModal" ><i class="far fa-search" style="color:rgb(0, 0, 0)"></i></button>
+                    <div class="boxSearch"> 
+                        <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                        <!-- Modal body -->
+                                    <div class="modal-body">
+                                        <label for="searchBtn">Keyword:</label>
+                                        <input type="text" id="keyword" class="ui" name="keyword">
+                                        <button id="searchBtn"> Search </button>
+                                    </div>
+                                      
+                                        <!-- Modal footer -->
+                                        <div class="modal-footer">
+                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                      </div>
+                                    </div>   
+                            </div>  
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div id="boxContent">
+
+        </div>
+           <!--<div class="card rounded-sm row">
+                <div class="row col-md-3 col-sm-12" id="divImg">
+                    <img class="img-card img-responsive" src="2.jpg" >
+                </div>
+                <div class="row col-md-9 col-sm-12" id="divContent">
+                    <p>hfiughfduigiufdg</p>
+                    <p>hfiughfduigiufdg</p>
+                    <p>hfiughfduigiufdg</p>
+                </div>
+            </div>
+        </div>-->
+    </div>
+</body>
+</html>
